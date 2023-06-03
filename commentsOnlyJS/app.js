@@ -1,4 +1,7 @@
 // Personal API Key for OpenWeatherMap API
+const apikey = "4a018f6bf09a33aba82d8e514eb397dd&units=imperial";
+const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?zip='
+
 
 // Event listener to add function to existing HTML DOM element
 
