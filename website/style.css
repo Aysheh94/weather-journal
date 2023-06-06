@@ -5,12 +5,12 @@ body{
 
 #app{
     display: grid;
-    grid-auto-rows: minmax(150px, auto);
+    grid-auto-rows: minmax(80px, auto);
     /* grid-template-columns:  */
-    height:100vh;
-    background: #f23557;
-    color: #f0d43a;
-    justify-content: center;
+    height:100%;
+    background: #65cdece6;
+    color: lightcoral;
+    /*justify-content: center;*/
     grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
@@ -41,10 +41,18 @@ body{
 }
 
 .headline {
+    font-size: 40px;
+    text-align: center;
+    padding: 0.5em;
+}
+.holder.entry{
+    padding: 2em;
+    text-align: center;
 
 }
 .title{
-
+    font-size: 30px;
+    color: #f0d43a;
 }
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
@@ -65,7 +73,8 @@ input{
 }
 
 button{
-    width: 400px;
+    display: block;
+    width: 300px;
     height: 100px;
     background: #3b4a6b;
     color: #f0d43a;
@@ -73,6 +82,7 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    
 }
 h1{
     font-size: 36px;
